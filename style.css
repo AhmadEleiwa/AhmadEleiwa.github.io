@@ -208,3 +208,46 @@ a{
 .grid .grid-item *{
     margin: 5px;
 }
+
+
+@media only screen and (max-width:1280px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .header .about {
+        width: 90%;
+    }
+    .skills{
+        width: 90%;
+    }
+    .grid{
+
+        grid-template-columns: auto auto ;
+ 
+    }
+
+    .objective{
+        width: 90%;
+        height: 12em;
+
+    }
+    .objective p{
+        font-size: .9em;
+    }
+
+    .objective h1{
+        font-size: large;
+        margin-top: 5px;
+    }
+    .detials{
+        height: 29em;
+        width: 100%;
+    }
+    .detials p{
+        width: 80%;
+        height: auto;
+        font-size: 0.8em;
+    }
+}
