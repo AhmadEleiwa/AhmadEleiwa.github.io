@@ -88,16 +88,19 @@ header a:hover div {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
 .details-img {
-    position: absolute;
-    right: 1.7em;
-    top: 49%;
     width: 30%;
-    border-radius: 5px;
 }
 
 .info {
@@ -105,7 +108,7 @@ header a:hover div {
     height: 20em;
     display: flex;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 6em;
     border: 1px solid #efefef;
 
 }
@@ -178,6 +181,10 @@ header a:hover div {
     margin: 4em auto;
     display: flex;
     justify-content: space-between;
+
+}
+.skills > img{
+    width: 50% ;
 }
 
 .skills h1 {
@@ -185,7 +192,7 @@ header a:hover div {
 }
 
 .grid {
-    width: 100%;
+    width: 50%;
     display: grid;
     grid-template-columns: auto auto;
     gap: 15px;
