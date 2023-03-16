@@ -97,9 +97,7 @@ header a:hover div {
     right: 1.7em;
     top: 49%;
     width: 30%;
-    border: 1px solid #efefef;
     border-radius: 5px;
-    /* box-shadow: 0 2px 4px 1px #cfcfcf; */
 }
 
 .info {
