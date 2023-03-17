@@ -6,6 +6,7 @@
 html {
     scroll-behavior: smooth;
 
+
 }
 
 body {
@@ -38,13 +39,16 @@ header .background {
     position: absolute;
     z-index: -2;
     background: linear-gradient(to bottom right, #2469d8, #D7415e, #FFda5f);
+    overflow: hidden;
 }
 
 header video {
-    position: absolute;
-    z-index: -1;
-    top: -70.1%;
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
     opacity: 0.2;
+
+    z-index: -1;
 }
 
 header a {
@@ -57,7 +61,7 @@ header a {
     color: #efefef;
     text-align: center;
     bottom: 2em;
-    left: 49%;
+    right: 45vw;
     font-size: 1.2em;
     box-sizing: border-box;
 
@@ -110,17 +114,17 @@ header a:hover div {
 
 }
 
-.info img {
+.info>img {
     margin: 0 1em;
     border-radius: 50%;
-
+    height: 90%;
 }
 
 .info .info-body {
     display: grid;
     width: 100%;
     height: 100%;
-    color: #2f2f2f  ;
+    color: #2f2f2f;
 
 }
 
@@ -128,7 +132,7 @@ header a:hover div {
     width: 100%;
     display: flex;
     align-items: center;
-    
+
     justify-content: space-around;
 
 }
@@ -178,8 +182,10 @@ header a:hover div {
     justify-content: space-between;
 
 }
-.skills > img{
-    width: 50% ;
+
+.skills>img {
+    width: 50%;
+    height: 50%;
 }
 
 .skills h1 {
@@ -187,14 +193,15 @@ header a:hover div {
 }
 
 .grid {
-    width: 50%;
+    width: 100%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
+
     gap: 15px;
 }
 
 .grid .grid-item {
-    width: 18em;
+
     display: flex;
     align-items: center;
     box-shadow: 0 2px 0.1em 1px #efefef;
@@ -202,13 +209,10 @@ header a:hover div {
     border-radius: 1px;
     padding: 0.5em;
     margin: 0 1em;
-    
+
 }
 
-.grid .grid-item>* {
-    margin-right: 1.2em;
-    
-}
+
 
 
 
@@ -306,12 +310,127 @@ footer .contacts {
 }
 
 footer .contacts .contact-item a {
-    min-width: 10em;
+
 
     display: flex;
     align-items: center;
     color: #cfcfcf;
     text-decoration: none;
     margin: 1em;
+
+}
+
+@media screen and (max-width:1280px) {
+    .about-me {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .about-me .pragraph {
+        width: 100%;
+        margin: 0;
+    }
+
+    .skills {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .skills>img {
+        width: 75%;
+        height: 75%;
+    }
+
+}
+
+@media screen and (max-width:810px) {
+
+    .container {
+        width: 90%;
+        
+    }
+    header, header video{
+        height: 50vh;
+        
+    }
+    
+    header h1 {
+        width: 100%;
+        font-size: 2.4em;
+        margin-left: 0.2em;
+
+    }
+   
+    .info {
+        width: 100%;
+        height: 50em;
+        font-size: 0.7em;
+        flex-direction: column;
+        
+    }
+    .info > img{
+        width: 15em;
+        height: 15em;
+
+        margin: 1em;
+    }
+    
+
+
+    .skills {
+        width: 100%;
+        font-size: 0.8em;
+        flex-direction: column;
+        align-items: center;
+        
+
+        
+    }
+
+    .skills>img {
+        width: 100%;
+  
+    }
+
+    .projects {
+        width: 80%;
+        display: flex;
+        font-size: 0.8em;
+        flex-direction: column;
+        align-items: flex-start;
+      
+
+    }
+
+    .projects .list {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects .list .card {
+        width: 100%;
+        height: 40em;
+    }
+
+    .projects .list .card img {
+        max-height: 70%;
+        object-fit: cover;
+    }
+
+    footer {
+        font-size: 0.6em;
+    }
+
+    footer img {
+        width: 2em;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .projects {
+        width: 100%;
+    }
 
 }
