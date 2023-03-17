@@ -247,7 +247,9 @@ header nav ul li a{
 
 .card .card-body a {
     max-width: 8em;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1em 0em;
     color: white;
     text-decoration: none;
@@ -256,7 +258,9 @@ header nav ul li a{
     transition: background-color 0.17s linear;
     background-color: #2469d8;
 }
-
+.card .card-body a img{
+    margin-left: 2px;
+}
 .card .card-body a:hover {
     background-color: #2096f3;
 }
