@@ -184,9 +184,9 @@ header nav ul li a {
 
     display: flex;
     align-items: center;
-    box-shadow: 0 2px 0.1em 1px #efefef;
+
     border: 1px solid #efefef;
-    border-radius: 1px;
+    border-radius: 3px;
     padding: 0.5em;
 
 
@@ -222,7 +222,7 @@ header nav ul li a {
 
 
     box-shadow: 0 0 2em 3px #cfcfcf90;
-    /* border: 3px; */
+    border-radius: 3px;
 }
 
 
@@ -253,7 +253,7 @@ header nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1em 0em;
+    padding: 0.5em 0em;
     color: white;
     text-decoration: none;
     border-radius: 3px;
@@ -338,8 +338,16 @@ footer .contacts .contact-item a {
         width: 90%;
     }
     .info{
-        width: 100%;
-        font-size: 0.8em;
+        width: 98%;
+    }
+    .info  .info-body{
+
+        font-size: 0.7em;
+        
+    }
+
+    .info > img{
+        height: 60%;
     }
     .about-me{
         flex-direction: column-reverse;
