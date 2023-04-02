@@ -393,9 +393,6 @@ footer .contacts .contact-item a {
 
     }
 
-    .menu-icon {
-        display: block;
-    }
 
     .info>img {
         height: 60%;
@@ -404,27 +401,30 @@ footer .contacts .contact-item a {
     .about-me {
         flex-direction: column-reverse;
         align-items: center;
+        font-size: 0.6em;
     }
 
     .skills {
         width: 100%;
-        font-size: 0.8em;
+        font-size: 0.6em;
         flex-direction: column;
         align-items: center;
-
+        justify-content: space-between;
 
 
     }
 
+
     .skills>img {
         width: 100%;
-
+        margin-top: 1em;
     }
 
     .projects {
         width: 80%;
         display: flex;
-        font-size: 1em;
+        font-size: 0.8em;
+
         flex-direction: column;
         align-items: flex-start;
 
@@ -454,7 +454,46 @@ footer .contacts .contact-item a {
     footer img {
         width: 2em;
     }
+    header {
+        justify-content: space-between;
+    }
 
+    header nav {
+        display: none;
+        
+    
+    }
+    .menu-icon {
+        display: block;
+    }
+    .show {
+        display: block;
+        width: 90%;
+        margin-bottom: 0.5em;
+    }
+
+    .show ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .show ul li {
+        width: 100%;
+        padding: 0.5em;
+        color: white ;
+        transition: all 0.17s ease-in-out;
+
+    }
+
+    .show ul li:hover{
+    
+        background-color: #2f2f2f;
+    }
+    .maximuize {
+        height: 16em;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -470,14 +509,8 @@ footer .contacts .contact-item a {
         width: 94%;
     }
 
-    header {
-        transition: all 0.17s ease-in-out;
-        justify-content: space-between;
-    }
+ 
 
-    header nav {
-        display: none;
-    }
 
     .projects {
         width: 100%;
@@ -496,31 +529,8 @@ footer .contacts .contact-item a {
         font-size: 0.6em;
     }
 
-    .maximuize {
-        height: 16em;
-        flex-direction: column;
-    }
+ 
 
-    .show {
-        display: block;
-        width: 90%;
-        margin-bottom: 0.5em;
-    }
 
-    .show ul {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-
-    }
-    .show ul li{
-        width: 100%;
-        padding: 0.5em;
-        transition: all 0.17s ease-in-out;
-    }
-    .show ul li:hover{
-    
-        background-color: #2f2f2f;
-    }
 
 }
