@@ -15,23 +15,22 @@
 </head>
 
 <body>
-    <header>
-        <h1	> <img src="https://img.icons8.com/windows/48/null/dev.png" />  AhmadIlawa  </h1>
-
-
-
+    <header  >
+        <h1	> <img src="https://img.icons8.com/windows/48/efefef/dev.png" />  AhmadIlawa  </h1>
         <nav>
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#about-me">ABOUT</a></li>
-                <li><a href="#skills">SKILLS</a></li>
+                <li onclick="closeMenu()"><a href="#">HOME</a></li>
+                <li onclick="closeMenu()"><a href="#about-me">ABOUT</a></li>
+                <li onclick="closeMenu()"><a href="#skills">SKILLS</a></li>
 
-                <li><a href="#projects">PROJECTS</a></li>
-                <li><a href="#contact">CONTACTS</a></li>
+                <li onclick="closeMenu()"><a href="#projects">PROJECTS</a></li>
+                <li onclick="closeMenu()"><a href="#contact">CONTACTS</a></li>
 
 
             </ul>
+            
         </nav>
+        <img class="menu-icon" onclick="menuIconHandler()" src="https://img.icons8.com/ios-filled/30/efefef/menu-squared-2.png"/>
     </header>
     <main class="container">
 
@@ -161,10 +160,6 @@
             <img class="skills-img" src="assets/20945770.jpg" />
         </section>
 
-        <!-- Activites section  -->
-        <section class="activties">
-
-        </section>
 
 
         <!--  -->
@@ -174,7 +169,7 @@
             <p class="sub-title">There's some of my works, checkout and have fun 	&#128516;</p>
             <div class="list">
                 <div class="card">
-                    <img src="assets/engine1.png" alt="">
+                    <img src="assets/wll2.gif" alt="">
                     <div class="card-body">
                         <h2>JEngine</h2>
                         <p>By Using java & OpenGL, I created a basic game engine. This engine has the standard basic
@@ -185,7 +180,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/freelance.jpg" alt="">
+                    <img src="assets/wall2.gif" alt="">
                     <div class="card-body">
                         <h2>Freelance</h2>
                         <p> Freelancing is a free-space hosting website built using MERN stack. The site allows you to
@@ -197,7 +192,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/bookshop.jpg" alt="">
+                    <img src="assets/wll1.gif" alt="">
                     <div class="card-body">
                         <h2>Book Shop</h2>
                         <p>The bookshop is a website built using ASP. CORE framework. The site allows the user to read
@@ -251,6 +246,10 @@
 
         </div>
     </footer>
+
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
