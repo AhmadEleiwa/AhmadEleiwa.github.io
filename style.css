@@ -101,6 +101,7 @@ header nav ul li a {
 
 .info .info-body p {
     color: #4f4f4f;
+    font-size: 1em;
 }
 
 .links {
@@ -331,7 +332,10 @@ footer .contacts .contact-item a {
         width: 75%;
         height: 75%;
     }
-
+    .info .info-body p {
+        color: #4f4f4f;
+        font-size: 2em;
+    }
 }
 
 @media screen and (max-width:810px) {
