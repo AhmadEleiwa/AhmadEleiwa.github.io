@@ -513,7 +513,7 @@ footer .links{
 
 
     .info>img {
-        height: 60%;
+        height: 90%;
     }
 
     .about-me {
@@ -680,11 +680,12 @@ footer .links{
     }
 
     .contact {
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
 
-
-
+    .contact form {
+        width: 80%;
+    }
 
 
 }
