@@ -42,3 +42,23 @@
 .card .card-body>* {
     margin: 0 auto;
 }
+@media screen and (max-width:920px) {
+    .card {
+        width: 48%;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .card {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+   .card:hover {
+        transform: translateY(0px);
+
+
+        box-shadow: 0 0.2em 1em 0.5em #cfcfcfaf;
+
+    }
+}
