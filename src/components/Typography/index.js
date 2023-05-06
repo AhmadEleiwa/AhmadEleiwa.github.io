@@ -2,7 +2,11 @@
 
 const Typography = props => {
     return <>
-        {props.type === 'p' && < p style={{color:"var(--text-secondary)",fontSize:props.fontSize ? props.fontSize: '0.9em'}}>
+        {props.type === 'p' && < p style={{
+            color:"var(--text-secondary)",
+            fontSize:props.fontSize ? props.fontSize: '0.9em',
+            textAlign:props.justify ? 'justify' : ''
+            }}>
             {props.children}
         </p >}
         {props.type === 'title' && <h1 style={{color:"var(---text-primary)", fontSize:props.fontSize}}>
