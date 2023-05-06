@@ -7,7 +7,7 @@ import './style.css'
 
 const UserInfo = props => {
     return <div className="user-info">
-        <div>
+        <div className="body">
             <Typography type='title'>Ahmad Ilawa <FontAwesomeIcon icon={faHandsClapping} /></Typography>
             <Typography type='subtitle'>Full-stack Developer</Typography>
             <Typography type='p'>A passionate full-stack developer from palestine  <FontAwesomeIcon icon={faMapPin} /></Typography>
