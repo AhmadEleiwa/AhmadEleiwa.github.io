@@ -21,7 +21,8 @@
 
 @media screen and (max-width:1280px) {
     .user-info {
-        flex-direction: column;
+        flex-direction: column-reverse;
+
     }
     .user-info .body{
         text-align: center;
