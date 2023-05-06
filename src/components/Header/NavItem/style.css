@@ -1,0 +1,14 @@
+.nav-item a{
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:720px) {
+    .nav-item a{
+        font-size: 0.8em;
+    }
+}
