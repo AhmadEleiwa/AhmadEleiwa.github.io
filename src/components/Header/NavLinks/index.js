@@ -1,4 +1,5 @@
 import NavItem from "../NavItem"
+import './style.css'
 
 const dataLinks = [
     {value:"HOME", to:'#'},

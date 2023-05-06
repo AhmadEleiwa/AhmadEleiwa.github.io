@@ -1,0 +1,11 @@
+header nav {
+    width: 40%;
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
