@@ -3,5 +3,16 @@
 
 :root{
   --text-primary:#f1f1f1;
-  ---text-secondary:#afafaf
+  --text-secondary:#6f6f6f;
+
+
+  --text-primary-dark:#4f4f4f;
+  --text-secondary-dark:#6f6f6f;
+
+  --main :#2469d8;
+  --light:#2096f3;
+}
+
+body{
+  font-family: 'Inter';
 }
