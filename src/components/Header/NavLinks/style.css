@@ -1,11 +1,26 @@
 header nav {
-    width: 40%;
+    width: 30%;
+    height: 100%;
+
 }
 
 header nav ul {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     list-style: none;
+    justify-content: flex-end;
+    gap:1em;
+ 
+}
+
+@media screen and (max-width:720px) {
+    header nav {
+        width: 70%;
+    }
+    header nav ul {
+
+        gap:0.5em;
+        justify-content: flex-start;
+    }
 }

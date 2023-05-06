@@ -1,3 +1,4 @@
+import { useId } from "react"
 import NavItem from "../NavItem"
 import './style.css'
 
@@ -10,10 +11,11 @@ const dataLinks = [
 
 ]
 const NavLinks = props => {
+    
 
     return <nav>
         <ul>
-           {dataLinks.map(item => <NavItem to={item.to}>{item.value}</NavItem>)}
+           {dataLinks.map((item, index) => <NavItem key={index} to={item.to}>{item.value}</NavItem>)}
         </ul>
     </nav>
 }
