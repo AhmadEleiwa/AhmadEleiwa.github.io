@@ -25,6 +25,7 @@ const ContactForm = props => {
         e.preventDefault()
         setIsSubmit(!isSubmit)
         console.log(formData)
+        alert(`name : ${formData.firstName + formData.lastName} , message:${formData.message}, to :ahmadilawa@gmail.com`)
     }
 
     return <div className="contact-form">
