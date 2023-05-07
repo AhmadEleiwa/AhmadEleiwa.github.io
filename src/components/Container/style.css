@@ -2,7 +2,7 @@
     width: 60%;
     display: flex;
     margin: 8em auto;
-    gap: 4em;
+    gap: 8em;
     flex-direction: column;
 }
 

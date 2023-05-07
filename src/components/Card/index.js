@@ -5,12 +5,12 @@ import './style.css'
 import Button from '../Button'
 
 const Card = props => {
-    return <div class="card">
+    return <div className="card">
         <img src={props.media} alt={props.title} />
-        <div class="card-body">
+        <div className="card-body">
             <h2>{props.title}</h2>
             <p>{props.desc}</p>
-            <Button to={props.path} target="_blank">CODE
+            <Button to={props.path} target="_blank" width='100%'>CODE
                 <FontAwesomeIcon icon={faGithub} />
             </Button>
         </div>

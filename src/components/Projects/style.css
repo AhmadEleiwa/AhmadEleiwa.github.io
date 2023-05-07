@@ -1,0 +1,15 @@
+.projects .list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width:1280px) {
+    .projects .list{    
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:720px) {
+    .projects .list{    
+        grid-template-columns: 1fr;
+    }
+}
