@@ -1,0 +1,18 @@
+.skill-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    box-shadow: 0 2px 8px 0 #66666661;
+    border-radius: 8px;
+
+    transition: all 0.17s ease-in-out;
+}
+.skill-card:hover{
+    transform: translate(10px);
+    background-color: #efefef91;
+}
+
+.skill-card >*{
+    font-size: 1.1em;
+}
