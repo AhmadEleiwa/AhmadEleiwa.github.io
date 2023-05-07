@@ -6,6 +6,7 @@ import Container from "../components/Container"
 import UserInfo from "../components/UserInfo"
 import Skills from "../components/Skills"
 import Projects from "../components/Projects"
+import ContactForm from "../components/ContactForm"
 
 const Home = props => {
     return <div>
@@ -15,6 +16,7 @@ const Home = props => {
             <Aboutme />
             <Skills />
             <Projects />
+            <ContactForm />
         </Container>
 
     </div>
