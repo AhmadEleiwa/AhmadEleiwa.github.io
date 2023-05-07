@@ -1,4 +1,3 @@
-import { useId } from "react"
 import NavItem from "../NavItem"
 import './style.css'
 
