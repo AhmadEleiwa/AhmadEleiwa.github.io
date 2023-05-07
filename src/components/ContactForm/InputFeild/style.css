@@ -1,0 +1,15 @@
+input, textarea{
+    width: 100%;
+    
+    background-color: #f1f1f1;
+    border: none;
+    padding: 1.5em 0 ;
+    border-radius: 5px;
+    
+}
+
+
+textarea{
+    min-height: 200px;
+    max-height: 500px;
+}

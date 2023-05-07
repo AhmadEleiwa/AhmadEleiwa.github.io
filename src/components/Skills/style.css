@@ -1,0 +1,23 @@
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills img{
+    width: 40%;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+@media screen and (max-width:1280px) {
+    .skills{
+        flex-direction: column;
+    }
+    .skills > img {
+        width: 100%;
+    }
+}

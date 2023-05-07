@@ -1,0 +1,12 @@
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    width: 100%;
+}
+
+@media screen and (max-width:720px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+}

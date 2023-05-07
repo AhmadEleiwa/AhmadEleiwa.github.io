@@ -1,0 +1,13 @@
+.container{
+    width: 60%;
+    display: flex;
+    margin: 8em auto;
+    gap: 8em;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1280px) {
+.container{
+    width: 90%;
+}
+}
