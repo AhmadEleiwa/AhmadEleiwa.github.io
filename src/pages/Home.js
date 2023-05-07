@@ -7,6 +7,7 @@ import UserInfo from "../components/UserInfo"
 import Skills from "../components/Skills"
 import Projects from "../components/Projects"
 import ContactForm from "../components/ContactForm"
+import Footer from "../components/Footer"
 
 const Home = props => {
     return <div>
@@ -18,6 +19,7 @@ const Home = props => {
             <Projects />
             <ContactForm />
         </Container>
+        <Footer />
 
     </div>
 }
